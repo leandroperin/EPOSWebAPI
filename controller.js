@@ -12,7 +12,7 @@ exports.gett = function(req, res) {
 };
 
 exports.sett = function(req, res) {
-  var new_temp = req.query.temp;
+  var new_temp = req.body.temp;
 
   const fs = require('fs');
 

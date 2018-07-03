@@ -6,5 +6,5 @@ module.exports = function(app) {
     .get(readTemp.gett);
 
   app.route('/sett')
-    .get(readTemp.sett);
+    .post(readTemp.sett);
 };
